@@ -14,6 +14,11 @@ public class TaxFunction {
 	 * 
 	 */
 	
+	private static final int TAX_RATE = 5;
+    private static final int MAX_CHILDREN = 3;
+    private static final int SINGLE_TAX_THRESHOLD = 54000000;
+    private static final int MARRIED_TAX_THRESHOLD = 58500000;
+    private static final int CHILD_TAX_ALLOWANCE = 1500000;
 	
 	public static int calculateTax(int monthlySalary, int otherMonthlyIncome, int numberOfMonthWorking, int deductible, boolean isMarried, int numberOfChildren) {
 		
