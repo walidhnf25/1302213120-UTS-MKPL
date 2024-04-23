@@ -14,6 +14,10 @@ public class Employee {
 	private LocalDate joinDate;
 	private boolean isForeigner;
 	private Gender gender; //true = Laki-laki, false = Perempuan
+<<<<<<< HEAD
+	
+=======
+>>>>>>> a55503265380a64b66e35c4f414031887b11ed91
 	private int monthlySalary;
 	private int otherMonthlyIncome;
 	private int annualDeductible;
@@ -22,7 +26,11 @@ public class Employee {
 	private List<String> childNames;
 	private List<String> childIdNumbers;
 	
+<<<<<<< HEAD
+	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, Gender gender) {
+=======
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, LocalDate joinDate, boolean isForeigner, Gender gender) {
+>>>>>>> a55503265380a64b66e35c4f414031887b11ed91
 		this.employeeId = employeeId;
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -85,6 +93,11 @@ public class Employee {
     }
 }
 
+<<<<<<< HEAD
+enum Gender {
+    MALE,
+    FEMALE
+=======
 
 enum Gender {
     MALE,
@@ -96,4 +109,5 @@ class TaxCalculator {
         // Tax calculation logic
         return 0; // Placeholder, replace with actual calculation
     }
+>>>>>>> a55503265380a64b66e35c4f414031887b11ed91
 }
